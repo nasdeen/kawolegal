@@ -1,0 +1,156 @@
+.bg_cover{
+	
+	background-image: url(../images/office.jpg);
+	background-size: cover;
+	background-position: center;
+	-webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+	 
+	   	
+}
+
+.txt-main{
+	font-size: 55px;
+}
+
+.txt-min{
+	font-size: 30px;
+}
+
+h1,h3{
+	color: white;
+}
+.row{
+	
+}
+.min_bg{
+	left: 0;
+	right:0;
+	height: 500px;
+	width: auto;	
+}
+.overlay2{
+	 background-color: rgba(49, 12, 12, 0.76);
+	 /*background-color: rgba(0, 0, 0, 0.7);*/
+
+  top: 0;
+  right: 0;
+  left: 0;
+  width: auto;
+  height: 260px;
+  position: relative;
+  z-index: 0;
+
+  /*---------------------*/
+ 
+
+    
+}
+.btn {
+	
+	font-size: 26px;
+	width: 210px
+
+}
+.btn-primary{
+	background-color: #31b0d5;
+}
+.footer1{
+	background-color: rgb(59, 12, 12);
+	height: 40px;
+	color: white;
+	padding: 5px;
+
+}
+.footer_md{
+	background-color: white;
+	height: 30px;
+	
+}
+
+.social{
+	background-color: rgb(59, 12, 12);
+	height: 40px;
+	padding: 5px;
+	color: white;
+	
+	text-align: right;
+	
+}
+
+.overlay1{
+  background-color: rgba(49, 12, 12, 0.76);
+  top: 0;
+  /*right: 0;*/
+  /*left: 0;*/
+  width: auto;
+  /*height: 700px;*/
+  /*position: relative;*/
+  z-index: 0;
+  color: white;
+
+
+}
+.overlay1b{
+	background-color: rgba(49, 12, 12, 0.76);
+	 flex-direction: column;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+
+}
+
+.menu1{
+	text-align: left;
+	padding-top: 20px;
+	
+}
+.menu2{
+	text-align: right;
+	padding-top: 30px;
+}
+
+
+
+.nav-pills > li.active > a, .nav-pills > li.active > a:hover, .nav-pills > li.active > a:focus {
+    color: #D14233;
+background-color: transparent;
+border-color: #D14233;
+border-width: medium;
+border-style: solid;
+}
+
+.img_logo{
+	height: 90px;
+	width: 200px;
+}
+
+
+
+/*------------------------------------------------------------------*/
+.navbar-nav > li > a {
+    padding-top: 5px;
+    padding-bottom: 5px;
+    margin-right: 5px;
+    margin-left: 5px;
+}
+
+.navbar-nav .active a {
+    border: 2px solid #D14233;
+
+}
+
+.nav > li > a {
+	color: #D14233;
+	font-family: Open Sans;
+    font-size: 14px;
+    font-style: normal;
+}
+
+.nav > li > a:focus, .nav > li > a:hover {
+    text-decoration: none;
+    background-color: transparent;
+    border: 2px solid #D14233;
+}

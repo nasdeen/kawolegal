@@ -1,0 +1,108 @@
+
+
+ .navBar>li.activeMenu>a, 
+ .navBar>li.activeMenu>a:focus, 
+ .navBar>li.activeMenu>a:hover{
+ 	border-color: #d14233;
+ 	background-color: unset;
+ 	border-style: solid;
+ 	border-width: thin;
+ 	color: #d14233;
+ }
+.navBar li a {
+	color: #d14233;
+}
+
+.navBar li a:hover{
+	
+	border-color: #d14233;
+ 	background-color: unset;
+ 	border-style: solid;
+ 	border-width: thin;
+
+}
+
+.navBar{
+	float: right; 
+	padding-right: 5vh;
+	margin-top:10vh ;
+	
+}
+.bigBackground{
+	background-image: url(../images/office.jpg);
+	height: 120vh;
+	background-size: cover;
+	background-position: bottom;
+
+}
+
+.overlay{
+	background-color: rgba(49, 12, 12, 0.76);
+	height: 120vh;
+	margin-right: 0px;	
+}
+
+.bigText{
+	color: white;
+	font-size: 44px;
+	text-align: center;
+	padding-top: 10px;
+}
+.midText{
+	color: white;
+	font-size: 27px;
+	text-align: center;
+
+}
+.column4spacing{
+
+	padding-left: 0px;
+	padding-right: 0px;
+	margin-top: 45px;
+}
+
+.btnMain{
+display: flex;
+justify-content: center;
+align-content: center;
+margin-top: 15px;
+}
+
+.btnRegister{
+ height: 5rem;
+ width: 20rem;
+ font-size: 26px;
+ text-align: center;
+ padding-bottom: 5px;
+ background-color:#32b3f1fc;
+ border-color: #46b8da;
+
+}
+
+.btnRegister:hover{
+	 color: #fff;
+     background-color: #5bc0de;
+    border-color: #46b8da;
+}
+.logoMain{
+	margin-bottom: 40px;
+	
+}
+.menuMain{
+	margin-bottom: 20px;
+}
+
+.logoSize{
+	
+	width: 37.6%;
+    height: 37.6%;
+    padding-left: 25px;
+    padding-top: 15px;
+    margin-left: 55px
+}
+
+.footerMain{
+	margin-top: 25px;
+	height: 63px;
+	background-color: rgb(59, 12, 12);;
+}
